@@ -1,6 +1,6 @@
 # test07_postgres/step05/memo.md
 
-### pg-main 1개, pg-replica, pg-replica2 복제 서버 2개를 만들어서 실행
+### pg-main 1개, pg-replica, pg-replica2 복제 서버 2개를 만들어서 실행 (과제 - 나혼자)
 > pg-main 의 host port : 5431, pg-replica : 5433, pg-replica2 : 5434
 
 ```bash
