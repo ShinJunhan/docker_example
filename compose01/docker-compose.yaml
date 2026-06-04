@@ -1,3 +1,5 @@
+# ~/docker_example/compose01/docker-compose.yaml
+
 version: '3.8'
 
 services:
@@ -7,4 +9,3 @@ services:
     container_name: compose-app
     ports:  # host 의 port 를 container 의 port 로 연결하는 설정
       - "8001:8000"
-      

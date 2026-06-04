@@ -1,0 +1,15 @@
+# ~/docker_example/compose04/docker-compose.yaml
+
+version: '3.8'
+
+services:
+  database:
+    image: postgres:15
+    container_name: postgres-app
+    ports:
+      - "5432:5432"
+    environment:  # 환경 변수
+      POSTGRES_USER: scott
+      POSTGRES_PASSWORD: tiger
+      POSTGRES_DB: scott_db
+      
