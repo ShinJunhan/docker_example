@@ -50,7 +50,7 @@ services:
         memory: 64M # 최소 64MB RAM 보장
 
   swarm-fastapi:
-    image: myoli999/swarm-fastapi:1.1
+    image: junhanshin/swarm-fastapi:1.1
     environment:
       # container 의 이름이 아닌 서비스의 이름이 db 접속 url 에 들어가는것을 유의한다 
       # postgresql://scott:tiger@<db서비스이름>:5432/scott_db

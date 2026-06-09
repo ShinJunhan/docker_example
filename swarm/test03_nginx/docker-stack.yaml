@@ -1,4 +1,4 @@
-# ~/docker_example/swarm/test02/docker-stack.yaml
+# ~/docker_example/swarm/test03/docker-stack.yaml
 # swarm 에서는 stack 파일을 만들어 놓고
 # 배포할 때는 docker stack deploy -c <파일명> <stack명> 해서 배포를 한다
 
