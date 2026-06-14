@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swarm Cluster Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Docker Swarm Full CRUD Dashboard</h1>
+        <p>Nginx Proxy: Member & Post Service</p>
+    </header>
+
+    <main class="container">
+        <!-- Member Service -->
+        <section class="card member-card">
+            <h2>👤 Member Management</h2>
+            <div class="form-group">
+                <input type="text" id="member-name" placeholder="이름">
+                <input type="text" id="member-addr" placeholder="주소">
+                <button onclick="saveMember()" class="btn-save">신규 등록</button>
+            </div>
+            <hr>
+            <div id="member-list" class="list-box"></div>
+        </section>
+
+        <!-- Post Service -->
+        <section class="card post-card">
+            <h2>📝 Post Management</h2>
+            <div class="form-group">
+                <input type="text" id="post-writer" placeholder="작성자">
+                <input type="text" id="post-title" placeholder="제목">
+                <button onclick="savePost()" class="btn-save">신규 등록</button>
+            </div>
+            <hr>
+            <div id="post-list" class="list-box"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
